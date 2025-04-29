@@ -8,6 +8,7 @@
   test-data: |
     no-data
   steps:
+    - Нажать "Sign up"
     - Заполнить "Nickname"
     - Заполнить "Email"
     - Заполнить "Password"
