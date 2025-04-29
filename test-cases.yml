@@ -15,3 +15,20 @@
     - Нажать кнопку "Submit"
   expected-result: |
     Пользователь успешно зарегистрирован и перенаправлен на главную страницу сайта
+
+- summary: |
+    Проверка создания игры с ИИ-соперником
+  requirement: |
+    Пользователь должен иметь возможность создать новую игру с выбором параметров
+  prerequisites: |
+    Пользователь авторизован в системе
+  test-data: |
+    Level: medium
+    Game Type: with a bot
+    Time control: 3 min
+    Choose task by name or tags: random task
+    Tags: rest
+  steps:
+    - Нажать кнопку "Create battle"
+  expected-result: |
+    Игра с ИИ-соперником успешно создана
