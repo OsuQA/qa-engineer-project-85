@@ -233,6 +233,6 @@
   steps:
     - Нажать на лого кубка и рейтинга
     - Перейти в раздел "Users rating"
-    - Проверить отображение колонок: Number, User, Rank, Rating, Games played, Joined
+    - Проверить отображение колонок Number, User, Rank, Rating, Games played, Joined
   expected-result: |
     Все строки и колонки таблицы отображаются корректно, информация читаема
