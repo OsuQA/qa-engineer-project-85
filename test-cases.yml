@@ -6,13 +6,13 @@
   prerequisites: |
     Пользователь ранее не создавал аккаунт в системе
   test-data: |
-    no-data
+    Nickname: Testosteron
+    Email: testosteron72@mail.by
+    Password: Test.72
+    Password Confirmation: Test.72
   steps:
     - Нажать "Sign up"
-    - Заполнить "Nickname"
-    - Заполнить "Email"
-    - Заполнить "Password"
-    - Заполнить "Password Confirmation"
+    - Ввести данные
     - Нажать кнопку "Submit"
   expected-result: |
     Пользователь успешно зарегистрирован и перенаправлен на главную страницу сайта
