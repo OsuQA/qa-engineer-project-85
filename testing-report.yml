@@ -40,7 +40,7 @@
   status: pass
 
 - summary: |
-    Регистрация и вход через Discord
+    Вход пользователя через Discord
   status: pass
 
 - summary: |
@@ -61,4 +61,8 @@
 
 - summary: |
     Проверка создания турниров
+  status: pass
+
+- summary: |
+    Регистрация пользователя через GitHub
   status: pass
