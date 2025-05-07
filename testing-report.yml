@@ -24,7 +24,7 @@
   status: pass
 
 - summary: |
-    Аутентификация пользователя через GitHub
+    Вход пользователя в систему через GitHub
   status: pass
 
 - summary: |
