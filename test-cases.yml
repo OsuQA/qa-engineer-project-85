@@ -236,3 +236,32 @@
     - Проверить отображение колонок Number, User, Rank, Rating, Games played, Joined
   expected-result: |
     Все строки и колонки таблицы отображаются корректно, информация читаема
+
+- summary: |
+    Проверка создания турниров
+  requirement: |
+    Пользователь должен иметь возможность создавать турниры
+  prerequisites: |
+    Открыта страница https://codebattle.hexlet.io/tournaments/#create
+    Пользователь авторизован в системе
+  test-data: |
+    Name: Bitva Bitv
+    Type: versus
+    Description: Markdown description. [stream_link](https://codebattle.hexlet.io)
+    Starts at (Asia/Yekaterinburg): 07.05.2025 16:01
+    Access type: public
+    Task strategy: random_per_game
+    Score strategy: time_and_tests
+    Use chat: yes
+    Use timer: no
+    Task provider: level
+    Level: medium
+    Event: 1
+    Players limit: 32
+    Match timeout seconds: 176
+    Break duration seconds: 40
+  steps:
+    - Выбираем характеристики для создания турнира
+    - Нажимаем кнопку "Create"
+  expected-result: |
+    Турнир успешно создан и пользователь попадает на страницу ожидания начала турнира
