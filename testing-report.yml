@@ -66,3 +66,7 @@
 - summary: |
     Успешная регистрация пользователя через GitHub
   status: pass
+
+- summary: |
+    Успешное завершение игры с победой
+  status: pass
