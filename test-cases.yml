@@ -115,6 +115,7 @@
   prerequisites: |
     Открыта страница https://codebattle.hexlet.io/
     У пользователя есть активный аккаунт GitHub
+    Пользователь авторизован в GitHub
   test-data: |
     no data
   steps:
